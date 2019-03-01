@@ -1,0 +1,39 @@
+{
+  "name": "react-suspense-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "tslint:prettier-check": "tslint-config-prettier-check ./tslint.json",
+    "tslint": "tslint --fix --force --format stylish --project ./tsconfig.json ./{src,__tests__}/**/*.{ts,tsx}",
+    "prettier": "prettier --write ./{src,__tests__}/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-cache": "^2.0.0-alpha.1",
+    "react-dom": "^16.8.3",
+    "react-scripts-ts": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/node": "^11.9.6",
+    "@types/react": "^16.8.6",
+    "@types/react-cache": "^2.0.1",
+    "@types/react-dom": "^16.8.2",
+    "prettier": "^1.16.4",
+    "tslint": "^5.13.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "es5"
+  }
+}
